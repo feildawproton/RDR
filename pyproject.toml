@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rdr"
+version = "0.1.0"
+description = "Differentiable radar signal processing, simulation, and SAR image formation"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "numpy",
+    "torch",
+    "lxml",
+]
+
+[project.optional-dependencies]
+viz = [
+    "matplotlib",
+    "pillow",
+]
+test = [
+    "pytest",
+    "scipy",
+    "sarkit",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]

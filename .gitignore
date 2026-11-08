@@ -1,0 +1,25 @@
+# standards, schemas, SIX source: kept locally, never committed
+references/
+
+# python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+build/
+dist/
+.venv/
+
+# outputs
+output/
+*.png
+*.nitf
+*.cphd
+benchmarks/results/
+
+# editors / os
+.vscode/
+.idea/
+*.swp
+.DS_Store
+*:Zone.Identifier
