@@ -32,7 +32,7 @@ Three files in `/home/feildaw/data`, all CPHD 1.1.0, one channel, FX domain, CF8
 | file | vectors x samples | signal bytes |
 | --- | --- | --- |
 | `2023-09-11-10-37-05_UMBRA-05_CPHD.cphd` | 4346 x 3999 | 139 MB |
-| `2023-07-30-17-19-39_UMBRA-05_CPHD.cphd` | 13152 x 9082 | ~1.0 GB |
+| `2023-07-30-17-19-39_UMBRA-05_CPHD.cphd` | 13152 x 9999 (brief originally said 9082; corrected after the implementer's report) | 1.05 GB |
 | `2025-10-26-05-00-15_UMBRA-08_CPHD.cphd` | 8229 x 31250 | 2.06 GB |
 
 Read-only. Never write under `/home/feildaw/data`. Machine: 15 GB RAM, RTX 3070 with
